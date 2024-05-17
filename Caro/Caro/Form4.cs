@@ -17,7 +17,7 @@ namespace Caro
             InitializeComponent();
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void Form4_Load(object sender, EventArgs e)
         {
 
         }

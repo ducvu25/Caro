@@ -30,136 +30,148 @@
         {
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtTimeBoot = new System.Windows.Forms.TextBox();
+            this.txtTimePlayer = new System.Windows.Forms.TextBox();
+            this.txtMess = new System.Windows.Forms.TextBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNameBoot = new System.Windows.Forms.TextBox();
+            this.txtNamePlayer = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(18, 174);
+            this.panel2.Location = new System.Drawing.Point(14, 141);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(947, 394);
+            this.panel2.Size = new System.Drawing.Size(710, 320);
             this.panel2.TabIndex = 3;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.txtTimeBoot);
+            this.panel1.Controls.Add(this.txtTimePlayer);
+            this.panel1.Controls.Add(this.txtMess);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(18, 12);
+            this.panel1.Controls.Add(this.txtNameBoot);
+            this.panel1.Controls.Add(this.txtNamePlayer);
+            this.panel1.Location = new System.Drawing.Point(14, 10);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(947, 156);
+            this.panel1.Size = new System.Drawing.Size(710, 127);
             this.panel1.TabIndex = 2;
             // 
-            // textBox5
+            // txtTimeBoot
             // 
-            this.textBox5.Location = new System.Drawing.Point(728, 100);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 8;
-            this.textBox5.Text = "Time";
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTimeBoot.Location = new System.Drawing.Point(546, 81);
+            this.txtTimeBoot.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTimeBoot.Name = "txtTimeBoot";
+            this.txtTimeBoot.Size = new System.Drawing.Size(76, 20);
+            this.txtTimeBoot.TabIndex = 8;
+            this.txtTimeBoot.Text = "Time";
+            this.txtTimeBoot.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox4
+            // txtTimePlayer
             // 
-            this.textBox4.Location = new System.Drawing.Point(168, 100);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 7;
-            this.textBox4.Text = "time";
+            this.txtTimePlayer.Location = new System.Drawing.Point(126, 81);
+            this.txtTimePlayer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTimePlayer.Name = "txtTimePlayer";
+            this.txtTimePlayer.Size = new System.Drawing.Size(76, 20);
+            this.txtTimePlayer.TabIndex = 7;
+            this.txtTimePlayer.Text = "time";
             // 
-            // textBox3
+            // txtMess
             // 
-            this.textBox3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.Red;
-            this.textBox3.Location = new System.Drawing.Point(352, 113);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(279, 30);
-            this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "Good !";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMess.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMess.ForeColor = System.Drawing.Color.Red;
+            this.txtMess.Location = new System.Drawing.Point(264, 92);
+            this.txtMess.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMess.Name = "txtMess";
+            this.txtMess.Size = new System.Drawing.Size(210, 26);
+            this.txtMess.TabIndex = 6;
+            this.txtMess.Text = "Good !";
+            this.txtMess.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel6
             // 
             this.panel6.BackgroundImage = global::Caro.Properties.Resources.avt3;
             this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel6.Location = new System.Drawing.Point(81, 33);
+            this.panel6.Location = new System.Drawing.Point(61, 27);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(60, 63);
+            this.panel6.Size = new System.Drawing.Size(45, 51);
             this.panel6.TabIndex = 5;
             // 
             // panel5
             // 
             this.panel5.BackgroundImage = global::Caro.Properties.Resources.avt4;
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel5.Location = new System.Drawing.Point(834, 33);
+            this.panel5.Location = new System.Drawing.Point(626, 27);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(67, 63);
+            this.panel5.Size = new System.Drawing.Size(50, 51);
             this.panel5.TabIndex = 4;
             // 
             // panel4
             // 
             this.panel4.BackgroundImage = global::Caro.Properties.Resources.o;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel4.Location = new System.Drawing.Point(508, 48);
+            this.panel4.Location = new System.Drawing.Point(381, 39);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(34, 34);
+            this.panel4.Size = new System.Drawing.Size(26, 28);
             this.panel4.TabIndex = 3;
             // 
             // panel3
             // 
             this.panel3.BackgroundImage = global::Caro.Properties.Resources.x;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Location = new System.Drawing.Point(448, 48);
+            this.panel3.Location = new System.Drawing.Point(336, 39);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(32, 33);
+            this.panel3.Size = new System.Drawing.Size(24, 27);
             this.panel3.TabIndex = 2;
             // 
-            // textBox2
+            // txtNameBoot
             // 
-            this.textBox2.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox2.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Location = new System.Drawing.Point(565, 48);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(263, 34);
-            this.textBox2.TabIndex = 1;
+            this.txtNameBoot.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.txtNameBoot.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNameBoot.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtNameBoot.Location = new System.Drawing.Point(424, 39);
+            this.txtNameBoot.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNameBoot.Name = "txtNameBoot";
+            this.txtNameBoot.Size = new System.Drawing.Size(198, 29);
+            this.txtNameBoot.TabIndex = 1;
             // 
-            // textBox1
+            // txtNamePlayer
             // 
-            this.textBox1.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(168, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(264, 34);
-            this.textBox1.TabIndex = 0;
+            this.txtNamePlayer.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.txtNamePlayer.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNamePlayer.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtNamePlayer.Location = new System.Drawing.Point(126, 38);
+            this.txtNamePlayer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNamePlayer.Name = "txtNamePlayer";
+            this.txtNamePlayer.Size = new System.Drawing.Size(199, 29);
+            this.txtNamePlayer.TabIndex = 0;
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(983, 581);
+            this.ClientSize = new System.Drawing.Size(737, 472);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form4";
             this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -170,14 +182,14 @@
 
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtTimeBoot;
+        private System.Windows.Forms.TextBox txtTimePlayer;
+        private System.Windows.Forms.TextBox txtMess;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNameBoot;
+        private System.Windows.Forms.TextBox txtNamePlayer;
     }
 }

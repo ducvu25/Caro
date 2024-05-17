@@ -9,3 +9,16 @@ D:\BaiTap\Caro\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
 D:\BaiTap\Caro\Caro\obj\Debug\Caro.exe
 D:\BaiTap\Caro\Caro\obj\Debug\Caro.pdb
 D:\BaiTap\Caro\Caro\obj\Debug\Caro.Form2.resources
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.csproj.AssemblyReference.cache
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.Form1.resources
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.Form2.resources
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.Form3.resources
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.Form4.resources
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.Properties.Resources.resources
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.csproj.GenerateResource.cache
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.csproj.CoreCompileInputs.cache
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.exe
+C:\Learn\Caro\Caro\Caro\obj\Debug\Caro.pdb
+C:\Learn\Caro\Caro\Caro\bin\Debug\Caro.exe.config
+C:\Learn\Caro\Caro\Caro\bin\Debug\Caro.exe
+C:\Learn\Caro\Caro\Caro\bin\Debug\Caro.pdb

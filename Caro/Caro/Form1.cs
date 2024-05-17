@@ -15,26 +15,26 @@ namespace Caro
         public Form1()
         {
             InitializeComponent();
+            SetLaguage();
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void btnStart_Click(object sender, EventArgs e)
         {
-
+            if (this.itxtName.Text == null || this.itxtName.Text.Length == 0) return;
+            GameManager.Instance.namePlayer = this.itxtName.Text.ToString();
+            this.Hide();
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+            this.Close();
         }
-
-        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        void SetLaguage()
         {
-
+            this.label1.Text = GameManager.Instance.txtTitle[(int)TITLE_FORM.f1Title, GameManager.Instance.language];
+            this.btnStart.Text = GameManager.Instance.txtTitle[(int)TITLE_FORM.f1Start, GameManager.Instance.language];
         }
     }
 }
